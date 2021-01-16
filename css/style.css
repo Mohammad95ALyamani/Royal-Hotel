@@ -29,6 +29,7 @@ header {
 .custom-nav {
     background-color: white;
     height: 80px;
+    z-index: 100;
 }
 
 .nav-link {
@@ -78,7 +79,7 @@ header {
     padding: 10px 0px 20px
 }
 
-.theme_btn {
+.theme-btn {
     font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
@@ -93,8 +94,9 @@ header {
     -o-border-radius: 0;
 }
 
-.button_hover:hover {
-    color: #fff;
+.hvr-sweep-to-right::before {
+    background-color: #eeb50a;
+    color: white;
 }
 
 
@@ -105,39 +107,39 @@ header {
     padding: 40px 50px 30px;
 }
 
-.input-group input {
+.custom-input {
+    background-color: transparent;
     border: 1px solid #2b3146;
-    background: transparent;
-    border-radius: 0px;
     font-size: 13px;
-    line-height: 38px;
-    padding: 0px 20px;
-    color: #777777;
-    z-index: 0;
-}
-
-.input-group span {
-    background: transparent;
-    padding: 0px;
-    border: 0px;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: #777777;
-    z-index: 2;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
 }
 
 .nice-select {
-    background: transparent;
-    border-radius: 0px;
+    background-color: transparent;
     border: 1px solid #2b3146;
     font-size: 13px;
-    line-height: 40px;
+    border-radius: 0;
+}
+
+.h-40 {
     height: 40px;
-    color: #777;
+}
+
+.button-hover {
+    color: black;
+    transition: 0.5 color;
+    -webkit-transition: 0.5 color;
+    -moz-transition: 0.5 color;
+    -ms-transition: 0.5 color;
+    -o-transition: 0.5 color;
+}
+
+.button-hover:hover {
+    color: white;
 }
 
 
@@ -145,3 +147,83 @@ header {
 
 
 /* End Header*/
+
+
+/* Start Gallary*/
+
+.img-btn {
+    background: #f3c300;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.rounded-8 {
+    border-radius: 0.8rem !important;
+    -webkit-border-radius: 0.8rem !important;
+    -moz-border-radius: 0.8rem !important;
+    -ms-border-radius: 0.8rem !important;
+    -o-border-radius: 0.8rem !important;
+}
+
+.p-color {
+    color: #52c5fd;
+}
+
+.gallary-img {
+    transition: 1s transform;
+    -webkit-transition: 1s transform;
+    -moz-transition: 1s transform;
+    -ms-transition: 1s transform;
+    -o-transition: 1s transform;
+}
+
+.gallary-img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+/* End Gallary*/
+
+
+/*Start Royal Section*/
+
+.royal-section {
+    background-image: url('../img/facilites_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-overlay {
+    background-color: rgba(0, 0, 24, 0.7);
+}
+
+.royal-section-card {
+    border: 1px solid #777777;
+    border-radius: 7px;
+    padding: 31px 40px 37px;
+    background-color: rgba(249, 249, 255, 0.102);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.p-13px {
+    font-size: 13px;
+}
+
+.icon-color {
+    color: #f3c300;
+}
