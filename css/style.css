@@ -108,8 +108,8 @@ header {
 }
 
 .custom-input {
-    background-color: transparent;
-    border: 1px solid #2b3146;
+    background-color: transparent !important;
+    border: 1px solid #2b3146 !important;
     font-size: 13px;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -206,7 +206,7 @@ header {
 }
 
 .section-overlay {
-    background-color: rgba(0, 0, 24, 0.7);
+    background-color: rgba(4, 9, 30, 0.8);
 }
 
 .royal-section-card {
@@ -226,4 +226,103 @@ header {
 
 .icon-color {
     color: #f3c300;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+/* Owl Carsol Start*/
+
+.owl-dots {
+    margin-top: 70px !important;
+}
+
+.owl-dots button span {
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #f7e9b3 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.owl-dots button span:hover {
+    background-color: #f3c300 !important;
+}
+
+.owl-dot.active span {
+    background-color: #f3c300 !important;
+}
+
+
+/* Owl Carsol End*/
+
+.p-12px {
+    font-size: 12px;
+}
+
+.latest-image img {
+    transition: 2s transform;
+    -webkit-transition: 2s transform;
+    -moz-transition: 2s transform;
+    -ms-transition: 2s transform;
+    -o-transition: 2s transform;
+}
+
+.latest-image img:hover {
+    transform: rotate(13deg) scale(1.3);
+    -webkit-transform: rotate(13deg) scale(1.3);
+    -moz-transform: rotate(13deg) scale(1.3);
+    -ms-transform: rotate(13deg) scale(1.3);
+    -o-transform: rotate(13deg) scale(1.3);
+}
+
+footer {
+    background-color: #04091e;
+}
+
+.form-control:active {
+    background-color: black !important;
+    outline: none !important;
+}
+
+.form-control:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.footer-arrow {
+    background-color: #f3c300;
+}
+
+footer a {
+    transition: 1s color;
+    -webkit-transition: 1s color;
+    -moz-transition: 1s color;
+    -ms-transition: 1s color;
+    -o-transition: 1s color;
+}
+
+footer a:hover {
+    color: #f3c300 !important;
+}
+
+footer a i {
+    transition: 1s color;
+    -webkit-transition: 1s color;
+    -moz-transition: 1s color;
+    -ms-transition: 1s color;
+    -o-transition: 1s color;
+}
+
+footer a i:hover {
+    color: #f3c300 !important;
+}
+
+.footer-hr {
+    border: 0.1px solid red;
 }
