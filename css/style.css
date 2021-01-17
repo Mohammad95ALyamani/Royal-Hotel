@@ -13,22 +13,24 @@
 header {
     background-image: url('../img/banner_bg.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-Y: TOP;
     background-position-x: center;
-    background-position-y: top;
     background-attachment: fixed;
-    background-size: 130%;
     background-clip: border-box;
-    height: 800px;
+}
+
+.h-650 {
+    height: 650px;
 }
 
 .background-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 800px;
+    background-color: rgba(4, 9, 30, 0.5);
 }
 
 .custom-nav {
     background-color: white;
-    height: 80px;
+    height: 70px;
     z-index: 100;
 }
 
@@ -57,11 +59,8 @@ header {
     background-size: cover;
 }
 
-.header-h1 {
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
+.fw-800 {
+    font-weight: 800 !important;
 }
 
 .header-h6 {
@@ -191,6 +190,51 @@ header {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
+}
+
+@media only screen and (max-width: 576px) {
+    .div-img {
+        display: inline-block;
+    }
+    .form-title-media {
+        margin-bottom: 3rem;
+    }
+    .form-input-media {
+        margin-bottom: 1rem;
+    }
+    .form-select-media {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    .footer-img {
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .footer-img {
+        width: 27%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-img {
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-img {
+        width: 26%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-img {
+        width: 13%;
+    }
 }
 
 

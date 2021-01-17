@@ -24,7 +24,7 @@
 <body>
     <!--Start Header-->
     <header class="container-fulied">
-        <div class="background-overlay d-flex align-items-center justify-content-center position-relative">
+        <div class="background-overlay">
             <div class="container custom-nav position-absolute top-0 start-0 end-0">
                 <nav class="navbar navbar-expand-lg h-100 align-items-center ">
                     <a class="navbar-brand ms-3" href="#"><img src="img/Logo.png" alt="Logo"></a>
@@ -62,32 +62,38 @@
             <!--End Navbar-->
 
             <!--Start Header Content-->
-            <section class="col-md-6 text-center">
-                <h6 class="text-uppercase text-light header-h6">Away From Monotonous Life</h6>
-                <h1 class="text-light header-h1">Relax Your Mind</h1>
-                <p class=" text-light header-p">
-                    If you are looking at blank cassettes on the web, you may be very confused at the <br> difference in price. You may see some for as low as $.17 each.
-                </p>
-                <a href="#" class="btn theme-btn hvr-sweep-to-right">Get Started</a>
+            <section class="container">
+                <div class="row h-650 justify-content-center align-items-center">
+                    <div class="col-xl-6 col-lg-8 col-md-10 col-sm-12 text-center ">
+                        <h6 class="text-uppercase text-light header-h6 ">Away From Monotonous Life</h6>
+                        <h1 class="text-light fw-800 display-2">Relax Your Mind</h1>
+                        <p class=" text-light header-p">
+                            If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.
+                        </p>
+                        <a href="#" class="btn theme-btn hvr-sweep-to-right">Get Started</a>
+                    </div>
+                </div>
             </section>
+
+
             <!--End Header Content-->
 
             <!--Start Header Form-->
-            <section class="container header-form position-absolute bottom-0">
-                <div class="row align-items-center">
-                    <div class="col-3">
+            <section class="container-lg container-fluid-md header-form ">
+                <div class="row align-items-center justify-content-around ">
+                    <div class="col-md-2 col-sm-12 mb-md-0 mb-sm-5 form-title-media">
                         <h2 class="text-uppercase text-light">book <br> your room</h2>
                     </div>
 
-                    <div class="col-3">
-                        <div class="input-group position-relative mb-3 h-40" id="datetimepicker11">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="input-group position-relative mb-md-3 mb-sm-3 h-40 form-input-media" id="datetimepicker11">
                             <input type="text" class="form-control custom-input datepicker" placeholder="Arrival Date">
                             <span class="input-group-addon position-absolute d-flex h-100 align-items-center end-0 me-3">
                                 <i class="fas fa-calendar-alt"></i>
                             </span>
                         </div>
 
-                        <div class="input-group position-relative h-40" id="datetimepicker11">
+                        <div class="input-group position-relative mb-md-0 mb-sm-3 h-40 form-input-media" id="datetimepicker11">
                             <input type="text" class="form-control custom-input datepicker" placeholder="Arrival Date">
                             <span class="input-group-addon position-absolute d-flex h-100 align-items-center end-0 me-3">
                                 <i class="fas fa-calendar-alt"></i>
@@ -95,9 +101,9 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
-                        <div class="nice-select w-100 h-40 mb-3" tabindex="0">
-                            <span class="current ">Some option</span>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="nice-select w-100 h-40 mb-md-3 mb-sm-3 form-select-media" tabindex="0">
+                            <span class="current">Some option</span>
                             <ul class="list w-100">
                                 <li data-value="Adult" class="option selected focus">Adult</li>
                                 <li data-value="2" class="option">Old</li>
@@ -106,8 +112,8 @@
                             </ul>
                         </div>
 
-                        <div class="nice-select w-100" tabindex="0">
-                            <span class="current ">Some option</span>
+                        <div class="nice-select w-100 mb-md-0 mb-sm-3 form-select-media" tabindex="0">
+                            <span class="current">Some option</span>
                             <ul class="list w-100">
                                 <li data-value="1" class="option selected focus ">Child</li>
                                 <li data-value="2" class="option">Child</li>
@@ -117,9 +123,9 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
-                        <div class="nice-select w-100 mb-3" tabindex="0">
-                            <span class="current ">Some option</span>
+                    <div class="col-md-3 col-sm-12">
+                        <div class="nice-select w-100 mb-3 form-select-media" tabindex="0">
+                            <span class="current">Some option</span>
                             <ul class="list w-100">
                                 <li data-value="1" class="option selected focus ">Number of Room</li>
                                 <li data-value="2" class="option">Room 01</li>
@@ -147,10 +153,10 @@
             <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast,</p>
         </div>
 
-        <div class="row mb-5 pb-5">
-            <div class="col-3 ">
-                <div class="position-relative rounded-8 mb-4 overflow-hidden">
-                    <img class="gallary-img" src="img/room1.jpg" alt="">
+        <div class="row mb-5 pb-5 justify-content-center">
+            <div class="col-lg-3 col-md-5 col-sm-7 text-center mb-4">
+                <div class="position-relative rounded-8 mb-4 overflow-hidden div-img">
+                    <img class="gallary-img rounded-8" src="img/room1.jpg" alt="">
                     <a href="#" class="btn img-btn hvr-sweep-to-right position-absolute start-0 end-0 bottom-0 m-auto w-50 mb-3">Book Now</a>
                 </div>
                 <div class="text-center">
@@ -161,8 +167,8 @@
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="position-relative rounded-8 overflow-hidden mb-4">
+            <div class="col-lg-3 col-md-5 col-sm-7 text-center mb-4">
+                <div class="position-relative rounded-8 overflow-hidden mb-4 div-img">
                     <img class="gallary-img" src="img/room2.jpg" alt="">
                     <a href="#" class="btn img-btn hvr-sweep-to-right position-absolute start-0 end-0 bottom-0 m-auto w-50 mb-3">Book Now</a>
                 </div>
@@ -174,21 +180,21 @@
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="position-relative rounded-8 overflow-hidden mb-4">
-                    <img class="gallary-img h-100 w-100" src="img/room3.jpg" alt="">
-                    <a href="#" class="btn img-btn hvr-sweep-to-right position-absolute start-0 end-0 bottom-0 m-auto w-50 mb-3">Book Now</a>
+            <div class="col-lg-3 col-md-5 col-sm-7 text-center mb-4">
+                <div class="position-relative rounded-8 mb-4 overflow-hidden div-img">
+                    <img class="gallary-img" src="img/room3.jpg" alt="">
+                    <a href="#" class="btn img-btn hvr-sweep-to-right position-absolute start-0 end-0 bottom-0 m-auto mb-3 w-50">Book Now</a>
                 </div>
                 <div class="text-center">
                     <a href="#" class="text-decoration-none">
-                        <p class="fs-4 text-dark">Honeymoon Suit</p>
+                        <p class="fs-4 text-dark">Double Deluxe Room</p>
                     </a>
-                    <p class="p-color"> <span class="fs-3 p-color">$750</span>/night</p>
+                    <p class="p-color"> <span class="fs-3 p-color">$250</span>/night</p>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="position-relative rounded-8 overflow-hidden mb-4">
+            <div class="col-lg-3 col-md-5 col-sm-7 text-center mb-4">
+                <div class="position-relative rounded-8 overflow-hidden mb-4 div-img">
                     <img class="gallary-img" src="img/room4.jpg" alt="">
                     <a href="#" class="btn img-btn hvr-sweep-to-right position-absolute start-0 end-0 bottom-0 m-auto w-50 mb-3">Book Now</a>
                 </div>
@@ -206,54 +212,57 @@
 
     <!--Royal Section Start-->
     <section class="container-fluid overflow-hidden p-0 royal-section">
+
         <div class="section-overlay overflow-hidden pb-5">
-            <div class="row mt-5 mb-5 pb-5 container m-auto justify-content-between align-items-center">
-                <div class="text-center m-5 ">
-                    <h1 class="text-light mt-5 fw-600">Royal Facilities</h1>
+            <div class="row justify-content-center m-5 p-5">
+                <div class="text-center ">
+                    <h1 class="text-light fw-600">Royal Facilities</h1>
                     <p>Who are in extremely love with eco friendly system.</p>
                 </div>
+            </div>
 
-                <div class="col-4 p-0">
+            <div class="row mb-5 pb-5 container m-auto justify-content-between align-items-center">
+                <div class="col-lg-4 col-md-6 mt-4 p-0">
                     <div class="royal-section-card me-2 ms-2">
                         <div>
-                            <i class="fas fa-utensils d-inline me-4 fs-4 icon-color"></i>
+                            <i class="fas fa-utensils d-inline me-3 fs-4 icon-color"></i>
                             <p class="d-inline text-light fs-4">Restaurant</p>
                         </div>
                         <p class="mt-4 p-13px text-light mb-0">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                     </div>
                 </div>
 
-                <div class="col-4 p-0">
+                <div class="col-lg-4 col-md-6 mt-4 p-0">
                     <div class="royal-section-card me-2 ms-2">
                         <div>
-                            <i class="fas fa-biking d-inline me-4 fs-4 icon-color"></i>
+                            <i class="fas fa-biking d-inline me-3 fs-4 icon-color"></i>
                             <p class="d-inline text-light fs-4">Sports CLub</p>
                         </div>
                         <p class="mt-4 p-13px text-light mb-0">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                     </div>
                 </div>
 
-                <div class="col-4 p-0">
+                <div class="col-lg-4 col-md-6 mt-4 p-0">
                     <div class="royal-section-card me-2 ms-2">
                         <div>
-                            <i class="fas fa-tshirt d-inline me-4 fs-4 icon-color"></i>
+                            <i class="fas fa-tshirt d-inline me-3 fs-4 icon-color"></i>
                             <p class="d-inline text-light fs-4">Swimming Pool</p>
                         </div>
                         <p class="mt-4 p-13px text-light mb-0">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                     </div>
                 </div>
 
-                <div class="col-4 p-0 mt-4">
+                <div class="col-lg-4 col-md-6 p-0 mt-4">
                     <div class="royal-section-card me-2 ms-2">
                         <div>
-                            <i class="fas fa-car-alt d-inline me-4 fs-4 icon-color"></i>
+                            <i class="fas fa-car-alt d-inline me-3 fs-4 icon-color"></i>
                             <p class="d-inline text-light fs-4">Rent a Car</p>
                         </div>
                         <p class="mt-4 p-13px text-light mb-0">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
                     </div>
                 </div>
 
-                <div class="col-4 p-0 mt-4">
+                <div class="col-lg-4 col-md-6 p-0 mt-4">
                     <div class="royal-section-card me-2 ms-2">
                         <div>
                             <i class="fas fa-ruler-horizontal d-inline me-4 fs-4 icon-color"></i>
@@ -263,7 +272,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 p-0 mt-4 ">
+                <div class="col-lg-4 col-md-6 p-0 mt-4 ">
                     <div class="royal-section-card me-2 ms-2">
                         <div>
                             <i class="fas fa-beer d-inline me-4 fs-4 icon-color"></i>
@@ -284,7 +293,7 @@
     <section class="aboutus-section mt-5 overflow-hidden mb-5">
         <div class="container pt-5 pb-5">
             <div class="row mt-5 mb-5">
-                <div class="col-6 align-self-center">
+                <div class="col-md-6 mt-5 mb-4 align-self-center">
                     <h1 class="mb-5 text-dark fw-600">About Us <br> Our History <br> Mission & Vision</h1>
                     <p class="mb-5">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate
                         behavior is often laughed.</p>
@@ -292,8 +301,8 @@
 
                 </div>
 
-                <div class="col-6 ">
-                    <img src="img/about_bg.jpg" alt="about_bg">
+                <div class="col-md-6">
+                    <img src="img/about_bg.jpg" class="mw-100 mt-5" alt="about_bg">
                 </div>
             </div>
         </div>
@@ -310,7 +319,7 @@
         <div class="container">
             <div class="owl-carousel mb-5 owl-theme">
                 <div class="item">
-                    <div class="row">
+                    <div class="row justify-content-around">
                         <div class="col-2">
                             <img src="img/testtimonial-1.jpg" class="rounded-circle" alt="">
                         </div>
@@ -329,7 +338,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="row">
+                    <div class="row justify-content-around">
                         <div class="col-2">
                             <img src="img/testtimonial-1.jpg" class="rounded-circle" alt="">
                         </div>
@@ -349,7 +358,7 @@
                 </div>
 
                 <div class="item ">
-                    <div class="row">
+                    <div class="row justify-content-around">
                         <div class="col-2">
                             <img src="img/testtimonial-1.jpg" class="rounded-circle" alt="">
                         </div>
@@ -371,7 +380,7 @@
                 </div>
 
                 <div class="item">
-                    <div class="row">
+                    <div class="row justify-content-around">
                         <div class="col-2">
                             <img src="img/testtimonial-1.jpg" class="rounded-circle" alt="">
                         </div>
@@ -402,7 +411,7 @@
         </div>
 
         <div class="row mb-5 pb-5">
-            <div class="col-4">
+            <div class="col-lg-4 mb-5 col-md-6">
                 <div class="latest-gallary ">
                     <div class="latest-image bg-success overflow-hidden">
                         <img class=" w-100 h-100" src="img/blog/blog-1.jpg" alt="">
@@ -417,7 +426,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-lg-4 mb-5 col-md-6">
                 <div class="latest-gallary ">
                     <div class="latest-image bg-success overflow-hidden">
                         <img class=" w-100 h-100" src="img/blog/blog-2.jpg" alt="">
@@ -432,7 +441,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-lg-4 mb-5 col-md-6">
                 <div class="latest-gallary ">
                     <div class="latest-image bg-success overflow-hidden">
                         <img class=" w-100 h-100" src="img/blog/blog-3.jpg" alt="">
@@ -454,42 +463,36 @@
         <div class="container">
             <div class="row justify-content-between">
 
-                <div class="col-3 mt-5 pt-5">
+                <div class="col-lg-3 col-sm-6 mt-5 pt-5">
                     <h5 class="text-light mt-5 mb-5">ABOUT AGENCY</h5>
                     <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point</p>
                 </div>
 
-                <div class="col-2 mt-5 pt-5">
+                <div class="col-lg-2 col-sm-6 mt-5 pt-5">
                     <h5 class="text-light mt-5 mb-5">NAVIGATION LINKS</h5>
-                    <div class="row">
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted fff">Home</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Team</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Feature</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Pricing</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Services</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Blog</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Portfolio</a>
-                        </div>
-                        <div class="col-6 mb-3">
-                            <a href="" class="text-decoration-none text-muted">Contact</a>
-                        </div>
+
+                    <div class="row mb-3">
+                        <div class="col-3"><a href="" class="text-decoration-none text-muted fff">Home</a></div>
+                        <div class="col-3 ms-5"><a href="" class="text-decoration-none text-muted">Team</a></div>
+                    </div>
+
+                    <div class="row mb-3 ">
+                        <div class="col-3"><a href="" class="text-decoration-none text-muted">Feature</a></div>
+                        <div class="col-3 ms-5"><a href="" class="text-decoration-none text-muted">Pricing</a></div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-3"><a href="" class="text-decoration-none text-muted">Services</a></div>
+                        <div class="col-3 ms-5"><a href="" class="text-decoration-none text-muted">Blog</a></div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-3"><a href="" class="text-decoration-none text-muted">Portfolio</a></div>
+                        <div class="col-3 ms-5"><a href="" class="text-decoration-none text-muted">Contact</a></div>
                     </div>
                 </div>
 
-                <div class="col-3 mt-5 pt-5">
+                <div class="col-lg-3 col-sm-6 mt-5 pt-5">
                     <h5 class="text-light mt-5 mb-5">NEWSLETTER</h5>
                     <p>For business professionals caught between high OEM price and mediocre print and graphic output,</p>
 
@@ -499,39 +502,39 @@
                     </div>
                 </div>
 
-                <div class="col-3 mt-5 pt-5">
+                <div class="col-lg-3 col-sm-6 mt-5 pt-5">
                     <h5 class="text-light mt-5 mb-5">INSTAFEED</h5>
 
                     <div class="row">
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-01.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-02.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-03.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-04.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-05.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-06.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="footer-img mb-3">
                             <img src="img/instagram/Image-07.jpg" alt="">
                         </div>
 
-                        <div class="col-3 mb-3">
+                        <div class="mb-3 footer-img">
                             <img src="img/instagram/Image-08.jpg" alt="">
                         </div>
                     </div>
@@ -541,8 +544,8 @@
             <hr class="mt-5 mb-5">
 
             <div class="container mb-5 pb-5">
-                <div class="row justify-content-between">
-                    <div class="col-4">
+                <div class="row">
+                    <div class="col-8">
                         <p>Copyright &copy; Mohammad Alyamani</p>
                     </div>
 
