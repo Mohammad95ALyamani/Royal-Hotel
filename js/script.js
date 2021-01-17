@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $('.pre-loader').fadeOut(400, function() {
+        $(this).remove();
+    });
+
     $('.nav-link').click(function() {
         $(this).addClass('active-link');
         $(this).parent().siblings().children().removeClass('active-link');
