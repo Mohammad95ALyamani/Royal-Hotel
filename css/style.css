@@ -257,6 +257,19 @@ header {
     background-color: #f3c300 !important;
 }
 
+.testimonial-link {
+    color: black;
+    transition: 1s color;
+    -webkit-transition: 1s color;
+    -moz-transition: 1s color;
+    -ms-transition: 1s color;
+    -o-transition: 1s color;
+}
+
+.testimonial-link:hover {
+    color: #52c5fd;
+}
+
 
 /* Owl Carsol End*/
 
@@ -320,6 +333,10 @@ footer a i {
 
 footer a i:hover {
     color: #beb9a4 !important;
+}
+
+footer #send {
+    cursor: pointer;
 }
 
 
